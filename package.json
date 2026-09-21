@@ -1,0 +1,25 @@
+{
+  "name": "study-group-matcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yug1010/study-group-matcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yug1010/study-group-matcher/issues"
+  },
+  "homepage": "https://github.com/Yug1010/study-group-matcher#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
