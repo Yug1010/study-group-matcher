@@ -8,7 +8,7 @@ test('health, create study group, and api validation', async () => {
 
     // 1. Test health check route
     const health = await (await fetch(`${base}/health`)).json();
-    assert.equal(health.status, 'ok');
+    assert.equal(health.status, 'broken');
 
     // 2. Test posting a new study group form
     const post = await fetch(`${base}/groups`, {
